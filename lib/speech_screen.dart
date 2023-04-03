@@ -55,7 +55,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
               backgroundColor: bgColor,
               radius: 35,
               child: Icon(
-                isListening ? Icons.mic : Icons.mic_none,
+                isListening ? Icons.chat_bubble_outline : Icons.mic_none,
                 color: textColor,
                 size: 50,
               ),
