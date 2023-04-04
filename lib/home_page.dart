@@ -1,7 +1,8 @@
-/ ignore_for_file: no_logic_in_create_state
+// ignore_for_file: no_logic_in_create_state
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:home_page/secondScreen.dart';
 
 class MyHomePage extends StatelessWidget {
   final onTap1;
@@ -38,11 +39,15 @@ class MyHomePage extends StatelessWidget {
         ),
         const Padding(padding: EdgeInsets.only(top: 200, left: 30, right: 30)),
         GestureDetector(
-          onTap: onTap1,
+          onTap: () {
+            onTap1;
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => MyApp()));
+          },
           child: Container(
             decoration: BoxDecoration(
                 color: isButton1Pressed
-                    ? Color.fromARGB(255, 194, 240, 255)
+                    ? const Color.fromARGB(255, 194, 240, 255)
                     : Colors.white,
                 borderRadius: BorderRadius.circular(18),
                 boxShadow: const [
@@ -86,7 +91,11 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: onTap2,
+          onTap: () {
+            onTap2;
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => MyApp()));
+          },
           child: Container(
             decoration: BoxDecoration(
                 color: isButton2Pressed
@@ -134,7 +143,11 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: onTap3,
+          onTap: () {
+            onTap3;
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => MyApp()));
+          },
           child: Container(
             decoration: BoxDecoration(
                 color: isButton3Pressed
@@ -182,7 +195,11 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
         GestureDetector(
-          onTap: onTap4,
+          onTap: () {
+            onTap4;
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => MyApp()));
+          },
           child: Container(
             decoration: BoxDecoration(
                 color: isButton4Pressed
