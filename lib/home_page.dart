@@ -1,4 +1,4 @@
-// ignore_for_file: no_logic_in_create_state
+/ ignore_for_file: no_logic_in_create_state
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -28,26 +28,26 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flexible(
         child: GridView.count(
-      childAspectRatio: 1.0,
+      childAspectRatio: 1.25,
       crossAxisCount: 2,
-      crossAxisSpacing: 10,
-      mainAxisSpacing: 10,
+      crossAxisSpacing: 30,
+      mainAxisSpacing: 30,
       children: [
         const SizedBox(
-          height: 10,
+          height: 4,
         ),
-        const Padding(padding: EdgeInsets.all(10)),
+        const Padding(padding: EdgeInsets.only(top: 200, left: 30, right: 30)),
         GestureDetector(
           onTap: onTap1,
           child: Container(
             decoration: BoxDecoration(
                 color: isButton1Pressed
-                    ? const Color.fromARGB(255, 186, 185, 185)
-                    : Colors.grey.shade100,
+                    ? Color.fromARGB(255, 194, 240, 255)
+                    : Colors.white,
                 borderRadius: BorderRadius.circular(18),
                 boxShadow: const [
                   BoxShadow(
-                    color: Color.fromARGB(255, 0, 0, 0),
+                    color: Colors.white,
                     spreadRadius: 1,
                     blurRadius: 8,
                     offset: Offset(4, 4),
@@ -90,12 +90,12 @@ class MyHomePage extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(
                 color: isButton2Pressed
-                    ? const Color.fromARGB(255, 186, 185, 185)
-                    : Colors.grey.shade100,
+                    ? Color.fromARGB(255, 194, 240, 255)
+                    : Colors.white,
                 borderRadius: BorderRadius.circular(18),
                 boxShadow: const [
                   BoxShadow(
-                    color: Color.fromARGB(255, 0, 0, 0),
+                    color: Colors.white,
                     spreadRadius: 1,
                     blurRadius: 8,
                     offset: Offset(4, 4),
@@ -138,12 +138,12 @@ class MyHomePage extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(
                 color: isButton3Pressed
-                    ? const Color.fromARGB(255, 186, 185, 185)
-                    : Colors.grey.shade100,
+                    ? Color.fromARGB(255, 194, 240, 255)
+                    : Colors.white,
                 borderRadius: BorderRadius.circular(18),
                 boxShadow: const [
                   BoxShadow(
-                    color: Color.fromARGB(255, 0, 0, 0),
+                    color: Colors.white,
                     spreadRadius: 1,
                     blurRadius: 8,
                     offset: Offset(4, 4),
@@ -186,12 +186,12 @@ class MyHomePage extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(
                 color: isButton4Pressed
-                    ? const Color.fromARGB(255, 186, 185, 185)
-                    : Colors.grey.shade100,
+                    ? Color.fromARGB(255, 194, 240, 255)
+                    : Colors.white,
                 borderRadius: BorderRadius.circular(18),
                 boxShadow: const [
                   BoxShadow(
-                    color: Color.fromARGB(255, 0, 0, 0),
+                    color: Colors.white,
                     spreadRadius: 1,
                     blurRadius: 8,
                     offset: Offset(4, 4),

@@ -96,8 +96,10 @@ class HomeState extends State<Home> {
           ClipPath(
             clipper: WaveClipper(), //set our custom wave clipper
             child: Container(
-              color: const Color.fromARGB(255, 39, 38, 37),
-              height: 400,
+              decoration: const BoxDecoration(
+                color: Color.fromARGB(255, 145, 186, 219),
+              ),
+              height: 540,
             ),
           ),
           ClipPath(
@@ -106,11 +108,16 @@ class HomeState extends State<Home> {
             child: Container(
               padding: const EdgeInsets.only(bottom: 50),
               decoration: const BoxDecoration(
-                color: Colors.black,
+                color: Color.fromARGB(255, 0, 54, 99),
               ),
-              height: 180,
+              height: 510,
             ),
           ),
+          const Text("Homepage",
+              style: TextStyle(
+                  color: Color.fromARGB(221, 180, 181, 183),
+                  fontSize: 50,
+                  fontWeight: FontWeight.bold)),
           MyHomePage(
             onTap1: Button1Pressed,
             isButton1Pressed: isButton1Pressed,
