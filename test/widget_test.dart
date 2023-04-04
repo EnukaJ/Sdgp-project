@@ -1,19 +1,31 @@
 // This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
+<<<<<<< HEAD
 // utility in the flutter_test package. For example, you can send tap and scroll
+=======
+// utility that Flutter provides. For example, you can send tap and scroll
+>>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:mate/main.dart';
+=======
+import 'package:home_page/home_page.dart';
+>>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+<<<<<<< HEAD
     await tester.pumpWidget(const MyApp());
+=======
+    await tester.pumpWidget(MyApp());
+>>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

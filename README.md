@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # mate
+=======
+# home_page
+>>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
 
 A new Flutter project.
 
