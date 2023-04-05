@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mate">
@@ -10,26 +9,16 @@
         <package android:name="com.google.android.googlequicksearchbox"/>
 </queries>
 
-
    <application
         android:label="mate"
-=======
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.home_page">
-   <application
-        android:label="home_page"
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
-<<<<<<< HEAD
             android:theme="@style/Launch"
-=======
             android:theme="@style/LaunchTheme"
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:windowSoftInputMode="adjustResize">

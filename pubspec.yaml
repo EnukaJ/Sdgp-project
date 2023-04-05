@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 name: mate
-=======
-name: home_page
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -38,16 +34,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-<<<<<<< HEAD
+
   cupertino_icons: ^1.0.5
   avatar_glow: ^2.0.2
   speech_to_text: ^6.1.1
   highlight_text: ^1.6.0
-
-=======
-  cupertino_icons: ^1.0.2
   google_fonts: ^4.0.3
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
+
 
 dev_dependencies:
   flutter_test:
@@ -58,11 +51,10 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-<<<<<<< HEAD
+
   flutter_lints: ^2.0.1
-=======
-  flutter_lints: ^2.0.0
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -70,32 +62,16 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-<<<<<<< HEAD
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
-  uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-=======
 # The following line ensures that the Material Icons font is
 # included with your application, so that you can use the icons in
 # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-  - images/chatbot.png
-  - images/games.png
-  - images/exercise.png
-  - images/music.png
-  - images/logo.jpeg
-  - images/bg.jpg
+  #assets:
+
     
->>>>>>> 9fa5fb50143dfd0a0d7680a7c31a82f33b01bdeb
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
