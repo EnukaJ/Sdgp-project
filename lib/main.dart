@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:home_page/home_page.dart';
+import 'package:home_page/buttonFunction.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Home()));
@@ -13,6 +14,8 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
+  NextPage nextPage = NextPage();
+
   bool isButton1Pressed = false;
   bool isButton2Pressed = false;
   bool isButton3Pressed = false;
@@ -21,41 +24,25 @@ class HomeState extends State<Home> {
   // ignore: non_constant_identifier_names
   void Button1Pressed() {
     setState(() {
-      if (isButton1Pressed == false) {
-        isButton1Pressed = true;
-      } else if (isButton1Pressed == true) {
-        isButton1Pressed = false;
-      }
+      nextPage.Button1Pressed(isButton1Pressed);
     });
   }
 
   void Button2Pressed() {
     setState(() {
-      if (isButton2Pressed == false) {
-        isButton2Pressed = true;
-      } else if (isButton2Pressed == true) {
-        isButton2Pressed = false;
-      }
+      nextPage.Button2Pressed(isButton2Pressed);
     });
   }
 
   void Button3Pressed() {
     setState(() {
-      if (isButton3Pressed == false) {
-        isButton3Pressed = true;
-      } else if (isButton3Pressed == true) {
-        isButton3Pressed = false;
-      }
+      nextPage.Button3Pressed(isButton3Pressed);
     });
   }
 
   void Button4Pressed() {
     setState(() {
-      if (isButton4Pressed == false) {
-        isButton4Pressed = true;
-      } else if (isButton4Pressed == true) {
-        isButton4Pressed = false;
-      }
+      nextPage.Button4Pressed(isButton4Pressed);
     });
   }
 
